@@ -160,7 +160,7 @@ $query=mysqli_query($MySQLi_CON,"select * from bloodnews ORDER BY id DESC limit 
 
                             <label style="margin-left:100px;">
                                 <span style="word-spacing:normal;"> with selected :</span>
-                                <span><img src="delete.png" onClick="delete_records();" alt="delete" />&nbsp;</span>
+                                <span><img src="delete.png" onClick="delete_news();" alt="delete" />&nbsp;</span>
                             </label>
 
 
