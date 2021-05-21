@@ -141,9 +141,9 @@ $MySQLi_CON->close();
 							  <a class="btn btn-primary" href="bloodrequest" style="width:200px; padding-left:-10px;">Send Request</a>
 							  <a class="btn btn-primary" href="viewrequests" style="width:200px; padding-left:-10px;">View Requests</a>
 							  </div>
-                <div class="mbr-section-btn">
+                <!-- <div class="mbr-section-btn">
   							  <a class="btn btn-primary" href="bloodavailable" style="width:200px; padding-left:-10px;">Blood Units</a>
-                </div>
+                </div> -->
                         </div>
 
                     </div>
