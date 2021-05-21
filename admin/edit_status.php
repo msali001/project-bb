@@ -126,7 +126,7 @@ for($i=0; $i<$chkcount; $i++)
             </select>
         </td>
             <td>
-                <input title="issueddate" type="date" name="id[]" value="<?php echo date('Y/m/d'); ?>" required readonly  class="form-control"/>
+                <input title="issueddate" type="text" id="curdate" name="cd[]" value="<?php echo date('Y/m/d'); ?>" required readonly  class="form-control"/>
             </td>
             <td>
                 <input title="issuedunits" type="number" name="iu[]" value="<?php echo $row['issuedunits'];?>"  class="form-control" required/>
@@ -193,6 +193,19 @@ echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '');
   <script src="../assets/dropdown/js/script.min.js"></script>
   <script src="../assets/js/jquery.touchSwipe.min.js"></script>
   <script src="../assets/js/script.js"></script>
+
+  <!-- <script>
+        var el_down = document.getElementById("curdate");
+  
+        function gfg_Run() {
+            var date = today.toJSON().slice(0, 10);
+            var nDate = date.slice(8, 10) + '/' 
+                       + date.slice(5, 7) + '/' 
+                       + date.slice(0, 4);
+            el_down.value = nDate;
+        }
+        window.onload = gfg_Run();
+    </script> -->
   
   
   <input name="animation" type="hidden">
