@@ -94,7 +94,7 @@
     <th>Last Required Date</th>
     <th>Status</th>
     <th>Issued Date</th>
-    <th>Issued Pints</th>
+    <th>Issued Units</th>
 
 </tr>
 <?php
